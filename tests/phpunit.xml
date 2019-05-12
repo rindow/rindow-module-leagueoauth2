@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="Bootstrap.php">
+  	<env name="PHPUNIT" value="1"/>
+    <testsuites>
+        <testsuite name="rindowtest">
+            <directory>./RindowTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

@@ -1,0 +1,20 @@
+<?php
+
+if(!defined('RINDOW_TEST_GOOGLE_CLIENTID'))
+    define('RINDOW_TEST_GOOGLE_CLIENTID','{google-app-id}');
+if(!defined('RINDOW_TEST_GOOGLE_CLIENTSECRET'))
+    define('RINDOW_TEST_GOOGLE_CLIENTSECRET','{google-app-secret}');
+
+if(!defined('RINDOW_TEST_FACEBOOK_CLIENTID'))
+    define('RINDOW_TEST_FACEBOOK_CLIENTID','{facebook-app-id}');
+if(!defined('RINDOW_TEST_FACEBOOK_CLIENTSECRET'))
+    define('RINDOW_TEST_FACEBOOK_CLIENTSECRET','{facebook-app-secret}');
+
+if(!defined('RINDOW_TEST_AUTH0_DOMAIN'))
+    define('RINDOW_TEST_AUTH0_DOMAIN','{auth0-domain}');
+if(!defined('RINDOW_TEST_AUTH0_CLIENTID'))
+    define('RINDOW_TEST_AUTH0_CLIENTID','{auth0-client-id}');
+if(!defined('RINDOW_TEST_AUTH0_CLIENTSECRET'))
+    define('RINDOW_TEST_AUTH0_CLIENTSECRET','{auth0-client-secret}');
+if(!defined('RINDOW_TEST_AUTH0_AUDIENCE'))
+    define('RINDOW_TEST_AUTH0_AUDIENCE','{auth0-audience}');

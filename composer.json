@@ -1,0 +1,40 @@
+{
+    "name": "rindow/rindow-module-leagueoauth2",
+    "type": "library",
+    "description": "Rindow compatible module for the League OAuth2 client",
+    "keywords": ["rindow","framework","league","oauth2","client"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.4.0",
+        "psr/http-message": "^1.0",
+        "league/oauth2-client": "*"
+    },
+    "require-dev": {
+        "rindow/rindow-stdlib": "*",
+        "league/oauth2-client": "*",
+        "league/oauth2-google": "*",
+        "league/oauth2-facebook": "*"
+    },
+    "suggest": {
+        "league/oauth2-google": "If It use google's authentication",
+        "league/oauth2-facebook": "If It use facebook's authentication"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rindow\\Module\\LeagueOAuth2\\": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://rindow.github.io/rindow-packagist/packages.json",
+            "options": {
+                "ssl": {
+                    "verify_peer": "true"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev"
+}
