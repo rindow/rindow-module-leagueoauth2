@@ -4,7 +4,7 @@
   	<env name="PHPUNIT" value="1"/>
     <testsuites>
         <testsuite name="rindowtest">
-            <directory>./RindowTest</directory>
+            <directory phpVersion="5.4.0">./RindowTest</directory>
         </testsuite>
     </testsuites>
 </phpunit>
